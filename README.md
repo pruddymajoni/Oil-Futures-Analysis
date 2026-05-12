@@ -18,9 +18,9 @@ War-related events have a significantly greater impact on oil futures prices tha
 
 summary_stats
 
-  mean_price median_price min_price max_price sd_price n_obs
-       <dbl>        <dbl>     <dbl>     <dbl>    <dbl> <int>
-       70.4         71.7     -37.6      124.     18.7  1592
+| mean_price | median_price | min_price | max_price | sd_price | n_obs |
+|------------|---------------|------------|------------|----------|-------|
+| 70.4 | 71.7 | -37.6 | 124.0 | 18.7 | 1592 |
 
 ### Moving Averages 
 
@@ -55,13 +55,13 @@ Group 2: Non-war global shocks
 
 Result 
 
-  event_name                        event_date type    price_impact
-  <chr>                             <date>     <chr>          <dbl>
-1 COVID Crash                       2020-03-11 Non-War      -30.2  
-2 COVID Recovery                    2020-11-09 Non-War        8.36 
-3 Ukraine War                       2022-02-24 War           10.9  
-4 Oil Price War (Saudi-Russia 2020) 2020-03-08 War          -29.0  
-5 Middle East Tension               2023-10-07 War           -0.218
+| event_name | event_date | type | price_impact |
+|-------------|-------------|------|---------------|
+| COVID Crash | 2020-03-11 | Non-War | -30.2 |
+| COVID Recovery | 2020-11-09 | Non-War | 8.36 |
+| Ukraine War | 2022-02-24 | War | 10.9 |
+| Oil Price War (Saudi-Russia 2020) | 2020-03-08 | War | -29.0 |
+| Middle East Tension | 2023-10-07 | War | -0.218 |
 
 War Average : -10.9%
 Non-War Average : -6.1%
@@ -79,9 +79,10 @@ This shows Oil markets are sensitive to both demand destruction and supply disru
 
 ### ANOVA RESULTS
 
-           Df Sum Sq Mean Sq F value Pr(>F)
-type         1   27.4    27.4   0.052  0.835
-Residuals    3 1591.8   530.6        
+| Source | Df | Sum Sq | Mean Sq | F value | Pr(>F) |
+|--------|----|---------|----------|---------|---------|
+| type | 1 | 27.4 | 27.4 | 0.052 | 0.835 |
+| Residuals | 3 | 1591.8 | 530.6 |  |  |
 
 p-value 0.835 > 0.05 
 There is no statistically significant difference between war and non-war events in terms of oil price impact. However, both categories produce large and volatile price movements, suggesting that oil markets respond strongly to global shocks regardless of classification. (Also n=5 is very small)
