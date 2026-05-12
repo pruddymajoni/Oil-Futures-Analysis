@@ -66,6 +66,8 @@ Result
 War Average : -10.9%
 Non-War Average : -6.1%
 
+![image alt](https://github.com/pruddymajoni/Oil-Futures-Analysis/blob/main/Oil%20Price%20Impact%20by%20Event.png?raw=true)
+
 The data does NOT clearly support this
 Instead:Both types create large but inconsistent shocks
 
