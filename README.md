@@ -31,6 +31,8 @@ Key points:
 
 The 20-day moving average reacts sharply during crisis periods such as the COVID-19 crash, reflecting rapid changes in short-term market sentiment. In contrast, the 200-day moving average remains smoother, indicating the long-term equilibrium trend of oil prices. Divergences between short-term and long-term averages highlight periods of market instability and transition.
 
+![image alt](https://github.com/pruddymajoni/Oil-Futures-Analysis/blob/main/Moving%20Averages.png?raw=true)
+
 ### Rolling volatility
 
 The 20-day rolling volatility plot shows that oil futures experienced their highest level of short-term instability during the early stages of the COVID-19 pandemic in 2020. Volatility rose sharply as global demand collapsed and uncertainty surrounding energy markets intensified. After this period, volatility declined substantially and remained relatively stable, with only moderate increases during later geopolitical events such as the Ukraine war. This suggests that while both war-related and non-war events affect oil prices, the magnitude of market uncertainty depends more on the economic severity of the shock than on the category of the event itself.
