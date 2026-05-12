@@ -51,6 +51,8 @@ Group 2: Non-war global shocks
 * Major economic shock events (e.g., 2008 crisis if you include it)
 * Natural disaster shocks affecting supply chains (optional)
 
+![image alt](https://github.com/pruddymajoni/Oil-Futures-Analysis/blob/main/Oil%20Price%20By%20Major%20Events.png?raw=true)
+
 Result 
 
   event_name                        event_date type    price_impact
