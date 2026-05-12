@@ -37,6 +37,7 @@ The 20-day moving average reacts sharply during crisis periods such as the COVID
 
 The 20-day rolling volatility plot shows that oil futures experienced their highest level of short-term instability during the early stages of the COVID-19 pandemic in 2020. Volatility rose sharply as global demand collapsed and uncertainty surrounding energy markets intensified. After this period, volatility declined substantially and remained relatively stable, with only moderate increases during later geopolitical events such as the Ukraine war. This suggests that while both war-related and non-war events affect oil prices, the magnitude of market uncertainty depends more on the economic severity of the shock than on the category of the event itself.
 
+![image](https://github.com/pruddymajoni/Oil-Futures-Analysis/blob/main/20%20Day%20Rolling%20Volatility.png?raw=true)
 
 ### Defining Events
 
