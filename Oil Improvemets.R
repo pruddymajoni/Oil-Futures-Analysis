@@ -199,7 +199,32 @@ event_results <- events %>%
 
 event_results
 
-
+#===============================================================================
+ANOVA
+#===============================================================================
 anova_model <- aov(price_impact ~ type, data = event_results)
 summary(anova_model)
+
+#===============================================================================
+SQL 
+#===============================================================================
+
+install.packages("sqldf")
+library(sqldf)
+
+event_volume <- events %>%
+  rowwise() %>%
+  mutate(
+    avg_volume = mean(
+      oil_data$Volume[
+        oil_data$Date >= (event_date - 7) &
+          oil_data$Date <= (event_date + 7)
+      ],
+      na.rm = TRUE
+    )
+  ) %>%
+  ungroup()
+
+event_volume
+
 
