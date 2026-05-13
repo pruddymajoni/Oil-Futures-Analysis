@@ -94,3 +94,18 @@ Large price increases (Ukraine: +10.9%)
 Mixed effects within the same category (war)
 
 Therefore, Oil price movements are highly sensitive to global events, but the direction and magnitude of the impact vary depending on the nature of the shock rather than the classification of the event as war or non-war.
+
+### Trading Volume Analysis
+
+Trading volume analysis revealed substantial differences in market activity across global events. The 2020 Saudi-Russia oil price war generated the highest average trading volume, indicating intense market participation and uncertainty surrounding global oil supply. The COVID-19 crash also produced exceptionally high trading activity as demand collapsed worldwide. In contrast, the 2023 Middle East tensions generated comparatively lower trading volume and minimal price impact, suggesting a weaker market response. These findings reinforce the conclusion that oil market reactions depend more on the scale and economic mechanism of an event than on whether the event is classified as war or non-war.
+
+| Event Name | Event Date | Type | Average Volume |
+|---|---|---|---:|
+| COVID Crash | 2020-03-11 | Non-War | 887,508 |
+| COVID Recovery | 2020-11-09 | Non-War | 426,177 |
+| Ukraine War | 2022-02-24 | War | 542,208 |
+| Oil Price War (Saudi-Russia 2020) | 2020-03-08 | War | 1,016,986 |
+| Middle East Tension | 2023-10-07 | War | 400,072 |
+
+![image alt](https://github.com/pruddymajoni/Oil-Futures-Analysis/blob/main/volume%20barchart.png?raw=true)
+
