@@ -19,7 +19,7 @@ War-related events have a significantly greater impact on oil futures prices tha
 
 | mean_price | median_price | min_price | max_price | sd_price | n_obs |
 |------------|---------------|------------|------------|----------|-------|
-| 70.4 | 71.7 | -37.6 | 124.0 | 18.7 | 1592 |
+| 70.5 | 71.7 | 10.0 | 124.0 | 18.6 | 1591 |
 
 ### Moving Averages 
 
