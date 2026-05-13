@@ -36,6 +36,13 @@ oil_data <- CLF_clean %>%
   ) %>%
   arrange(Date)
 
+#replace negatives
+
+library(dplyr)
+library(tidyverse)
+oil_data <- oil_data %>%
+  filter(Close >= 0)
+
 # Check first few rows 
 head(oil_data) 
 #===============================================================================
