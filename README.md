@@ -50,7 +50,6 @@ Group 2: Non-war global shocks
 * COVID-19 (2020)
 * Major economic shock events (e.g., 2008 crisis)
 
-![image alt](https://github.com/pruddymajoni/Oil-Futures-Analysis/blob/main/Oil%20Price%20By%20Major%20Events.png?raw=true)
 
 Result 
 
