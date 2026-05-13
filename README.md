@@ -110,3 +110,11 @@ Trading volume analysis revealed substantial differences in market activity acro
 
 ![image alt](https://github.com/pruddymajoni/Oil-Futures-Analysis/blob/main/volume%20barchart.png?raw=true)
 
+### Notes from Dr. Taylor
+
+Measures of volatility and noise flow
+Set a noise floor 
+Consider other factors like events happening at the same time (e.g Saudi war and Covid)
+Consider a simpler future market
+
+
