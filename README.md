@@ -16,7 +16,6 @@ War-related events have a significantly greater impact on oil futures prices tha
 
 ### Summary Stats
 
-summary_stats
 
 | mean_price | median_price | min_price | max_price | sd_price | n_obs |
 |------------|---------------|------------|------------|----------|-------|
