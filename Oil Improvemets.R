@@ -227,4 +227,25 @@ event_volume <- events %>%
 
 event_volume
 
+#===============================================================================
+#Volume Chart
+#===============================================================================
+
+ggplot(event_volume, aes(x = event_name, y = avg_volume, fill = type)) +
+  geom_bar(stat = "identity") +
+  geom_text(
+    aes(label = round(avg_volume, 0)),
+    vjust = -0.3,
+    size = 3
+  ) +
+  labs(
+    title = "Average Trading Volume Around Major Events",
+    x = "Event",
+    y = "Average Volume"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+
 
