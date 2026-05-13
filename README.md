@@ -12,7 +12,7 @@ Alternative hypothesis (H₁):
 War-related events have a significantly greater impact on oil futures prices than non-war global crises.
 
 ### Closing Plot
-![image alt](https://github.com/pruddymajoni/Oil-Futures-Analysis/blob/main/Closing%20Price.png?raw=true)
+![image alt](https://github.com/pruddymajoni/Oil-Futures-Analysis/blob/main/Closing%20Price%20plot.png?raw=true)
 
 ### Summary Stats
 
