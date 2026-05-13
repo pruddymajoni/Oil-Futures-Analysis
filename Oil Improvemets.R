@@ -42,7 +42,42 @@ head(oil_data)
 # 4. Simple line plot for closing price 
 #===============================================================================
 ggplot(oil_data, aes(x = Date, y = Close)) +
-  geom_line(color = "steelblue")
+  
+  # Closing price line
+  geom_line(color = "steelblue", size = 1) +
+  
+  # Vertical event lines
+  geom_vline(
+    data = events,
+    aes(xintercept = as.numeric(event_date), color = type),
+    linetype = "dashed",
+    size = 0.9
+  ) +
+  
+  # Event labels
+  geom_text(
+    data = events,
+    aes(
+      x = event_date,
+      y = max(oil_data$Close, na.rm = TRUE) * 0.95,
+      label = event_name
+    ),
+    angle = 90,
+    vjust = -0.4,
+    hjust = 1,
+    size = 3,
+    inherit.aes = FALSE
+  ) +
+  
+  labs(
+    title = "WTI Crude Oil Futures Prices with Major Global Events",
+    subtitle = "Major geopolitical and economic events affecting oil markets",
+    x = "Date",
+    y = "Closing Price (USD per Barrel)",
+    color = "Event Type"
+  ) +
+  
+  theme_minimal()
 
 #===============================================================================
 #Summary Stats
