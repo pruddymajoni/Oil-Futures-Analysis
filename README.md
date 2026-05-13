@@ -47,8 +47,8 @@ Group 1: War / geopolitical conflict
 
 Group 2: Non-war global shocks
 * COVID-19 (2020)
-* Major economic shock events (e.g., 2008 crisis if you include it)
-* Natural disaster shocks affecting supply chains (optional)
+* Major economic shock events (e.g., 2008 crisis)
+* Natural disaster shocks affecting supply chains
 
 ![image alt](https://github.com/pruddymajoni/Oil-Futures-Analysis/blob/main/Oil%20Price%20By%20Major%20Events.png?raw=true)
 
