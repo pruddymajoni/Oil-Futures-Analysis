@@ -44,6 +44,8 @@ Group 1: War / geopolitical conflict
 * Ukraine war (2022–present)
 * Iran–Israel tensions / Middle East conflict spikes
 * Iran-USA (2026)
+
+
 Group 2: Non-war global shocks
 * COVID-19 (2020)
 * Major economic shock events (e.g., 2008 crisis)
