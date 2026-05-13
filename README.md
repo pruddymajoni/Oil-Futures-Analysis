@@ -84,7 +84,8 @@ This shows Oil markets are sensitive to both demand destruction and supply disru
 
 p-value 0.835 > 0.05 
 
-**We fail to reject the null Hypothesis. 
+**We fail to reject the null Hypothesis. **
+
 There is no statistically significant difference between war and non-war events in terms of oil price impact. However, both categories produce large and volatile price movements, suggesting that oil markets respond strongly to global shocks regardless of classification. (Also n=5 is very small)
 
 ### INSIGHT
