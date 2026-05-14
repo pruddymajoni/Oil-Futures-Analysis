@@ -113,8 +113,11 @@ Trading volume analysis revealed substantial differences in market activity acro
 ### Notes from Dr. Taylor
 
 Measures of volatility and noise flow
+
 Set a noise floor 
+
 Consider other factors like events happening at the same time (e.g Saudi war and Covid)
+
 Consider a simpler future market
 
 
